@@ -1,0 +1,140 @@
+
+ body{
+    background-color: #fff !important;
+    }
+.news_pikachu{
+    width: 250px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #F6951D;
+}
+
+
+.news_main{
+    background-color: #F6951D;
+    width: 1100px;
+    height: 1850px;
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 3;
+    column-rule-style:dashed;
+    column-width: 200px;
+    overflow: hidden !important;
+    border-radius: 15px;
+    
+}
+
+.news{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    border: none;
+    padding-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.news_title{
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+hr{
+    
+        border: 5px solid white;
+        border-radius: 5px;
+      
+}
+.page_buttons{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    color:#fff ;
+    background-color: #F6951D;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .comment_button {
+    background-color: #F6951D;
+    color:#fff ;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+  }     
+      
+      
+
+
+.haber_metni{
+    color: black;
+    width: 900px;
+    height:auto;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.haber_metni_ust{
+text-align: center;
+color: black;
+margin-bottom: 20px;
+}
+
+.haber_medyasi{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color: black;
+}
+bold{
+    color: black;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.aciklama{
+    color: black;
+    text-align: center !important;
+    margin: auto;
+    font-size: small;}
+footer {
+    background: #c16e08;
+    color: #fff;
+    padding: 50px 0;
+  }
